@@ -255,20 +255,20 @@ async function displayUser(username) {
         userRepoStarCount__18.textContent = `${userData[2].stargazers_count}`;
         userRepoStarCount__19.textContent = `${userData[24].stargazers_count}`;
 
-        userRepoCircle.style.color = `yellow`;
+        userRepoCircle.style.color = `red`;
         userRepoCircle__1.style.color = `yellow`; 
         userRepoCircle__2.style.color = `yellow`; 
-        userRepoCircle__3.style.color = `yellow`; 
+        userRepoCircle__3.style.color = `red`; 
         userRepoCircle__4.style.color = `yellow`; 
         userRepoCircle__5.style.color = `red`; 
         userRepoCircle__6.style.color = `red`; 
         userRepoCircle__7.style.color = `yellow`; 
         userRepoCircle__8.style.color = `yellow`; 
-        userRepoCircle__9.style.color = `black`; 
+        userRepoCircle__9.style.color = `red`; 
         userRepoCircle__10.style.color = `red`;
         userRepoCircle__11.style.color = `red`;
-        userRepoCircle__12.style.color = `red`;
-        userRepoCircle__13.style.color = `purple`;
+        userRepoCircle__12.style.color = `yellow`;
+        userRepoCircle__13.style.color = `yellow`;
         userRepoCircle__14.style.color = `red`;
         userRepoCircle__15.style.color = `yellow`;
         userRepoCircle__16.style.color = `yellow`;
