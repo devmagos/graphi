@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+p {
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    width: 80%;
+    height: 10%;
+    margin-top: 0.625em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5em;
+    padding-bottom: 0.3125em;
+    background-color: #111;
+}
+
+.details .repo__hr {
+    border-bottom: 2px solid orange;
+}
+
+.nav__1 {
+    display: flex;
+    flex-grow: 3;
+}
+
+.nav__2 {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+
+#nav__ul a {
+    color: #fff;
+    font-size: 0.5em;
+    font-weight: 18.75em;
+    margin: 35px 3px 0px 0px;
+}
+
+
+.caret {
+    font-size: 0.5em;
+    margin: 8px 6px 20px 0px;
+    color:#fff;
+}
+
+.github_logo {
+    height: 1.25em;
+    width: 1.25em;
+    margin: 10px 10px 10px 0px;
+    background-color: #fff;
+}
+
+#repo__search {
+    color: #fff;
+    width: 30%;
+    height: 1.25em;
+    padding: 0.1875em;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.9375em;
+    border-style: solid;
+    border-color: #eee;
+    border-width: thin;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+}
+
+#repo__search:placeholder-shown {
+    padding-left: 0.625em;
+}
+
+img {
+    position: relative;
+    margin-top: 0.5em;
+    height: auto;
+    width: 12.5em;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.avatar__1 {
+    width: 0.9375em;
+    height: 0.9375em;
+    margin-right: 0.375em;
+    border-radius: 50%;
+}
+
+.emoji {
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid gray;
+    border-color: whitesmoke;
+    height: 0.625em;
+    top: 10em;
+    left: 13.25em;
+    z-index: 2;
+    width: 1.125em;
+    height: 0.5em;
+    padding: 0px  0px 15px 0px;
+    background-color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    width: 80%;
+    height: 80%;
+}
+
+#github__image {
+    flex-grow: 1; 
+    padding-right: 10px;
+}
+
+div .avatar { 
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#github__text > p {
+    margin-top: 0.625em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github__details  {
+    flex-grow: 7;
+    margin-top: 1.25em;
+}
+
+.details i, a {
+    color: #000;
+    font-size: 0.75em;
+}
+
+#github__search {
+    width: 90%;
+    padding: 0.1875em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 0.625em;
+}
+
+#github__search:placeholder-shown {
+    padding-left: 0.625em;
+}
+
+.g-star {
+    width: 90%;
+    display: flex;
+    padding-right: 0.625em;
+}
+
+hr {
+    width: 90%;
+}
+
+.display_data {
+    display: flex;
+    padding-bottom: 0.625em;
+}
+.display_data i {
+    margin-right: 0.3125em;
+}
+
+.display__repo__count {
+    display: flex;
+    padding-bottom: 0.625em;
+    padding-top: 0.625em;
+}
+
+.display__repo__count p{
+    margin-right: 0.3125em;
+}
+.display__repo__count span, p{
+    font-size: 0.5625em;
+    color: #000;
+}
+
+.my__line {
+    width: 7.5em;
+}
+
+.star {
+    margin-right: 0.5em;
+    font-size: 0.625em;
+    color: #000;
+}
+.lang {
+    margin-right: 0.5em;
+    font-size: 0.625em;
+}
+
+.fork {
+    font-size: 0.625em;
+}
+
+.desc {
+    font-size: 0.625em;
+    margin-bottom: 0.625em;
+    width: 20%;
+}
+
+.repo {
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+    font-size: 1.25em;
+    font-weight: 25em;
+    color: #000;
+    flex-grow: 5;
+} 
+
+.btn {
+    height: 1.25em;
+    font-size: 0.71875em;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__skills {
+    width: 12.5em;
+    font-size: 0.6875em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: rgb(76, 78, 80);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(8, 4, 7);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(139, 143, 145);
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.875em;
+    font-weight: bolder;
+  }
+  
+  a:active {
+    color: rgb(255, 0, 34);
+    background-color: transparent;
+    text-decoration: underline;
+  }
