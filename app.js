@@ -150,7 +150,7 @@ async function displayUser(username) {
         userRepoLength.style.borderRadius = `50%`;
         userRepoPublic.textContent = `${data.public_repos}`
 
-        userRepositories.textContent = `${userData[15].name}`;
+        userRepositories.textContent = `${userData[9].name}`;
         userRepositories__1.textContent = `${userData[5].name}`; 
         userRepositories__2.textContent = `${userData[6].name}`; 
         userRepositories__3.textContent = `${userData[19].name}`; 
@@ -171,7 +171,7 @@ async function displayUser(username) {
         userRepositories__18.textContent = `${userData[2].name}`;
         userRepositories__19.textContent = `${userData[24].name}`;
 
-        userRepoLanguage.textContent = `${userData[15].language}`;
+        userRepoLanguage.textContent = `${userData[9].language}`;
         userRepoLanguage__1.textContent = `${userData[5].language}`;
         userRepoLanguage__2.textContent = `${userData[6].language}`;
         userRepoLanguage__3.textContent = `${userData[19].language}`;
@@ -192,7 +192,7 @@ async function displayUser(username) {
         userRepoLanguage__18.textContent = `${userData[2].language}`;
         userRepoLanguage__19.textContent = `${userData[24].language}`;
 
-        userRepoForkCount.textContent = `${userData[15].forks_count}`;
+        userRepoForkCount.textContent = `${userData[9].forks_count}`;
         userRepoForkCount__1.textContent = `${userData[5].forks_count}`;
         userRepoForkCount__2.textContent = `${userData[6].forks_count}`;
         userRepoForkCount__3.textContent = `${userData[19].forks_count}`;
@@ -213,7 +213,7 @@ async function displayUser(username) {
         userRepoForkCount__18.textContent = `${userData[2].forks_count}`;
         userRepoForkCount__19.textContent = `${userData[24].forks_count}`;
 
-        userRepoDescription.textContent = `${userData[15].description}`;
+        userRepoDescription.textContent = `${userData[9].description}`;
         userRepoDescription__1.textContent = `${userData[5].description}`;
         userRepoDescription__2.textContent = `${userData[6].description}`;
         userRepoDescription__3.textContent = `${userData[19].description}`;
@@ -234,7 +234,7 @@ async function displayUser(username) {
         userRepoDescription__18.textContent = `${userData[2].description}`;
         userRepoDescription__19.textContent = `${userData[24].description}`;
         
-        userRepoStarCount.textContent = `${userData[15].stargazers_count}`;
+        userRepoStarCount.textContent = `${userData[9].stargazers_count}`;
         userRepoStarCount__1.textContent = `${userData[5].stargazers_count}`;
         userRepoStarCount__2.textContent = `${userData[6].stargazers_count}`;
         userRepoStarCount__3.textContent = `${userData[19].stargazers_count}`;
@@ -255,7 +255,7 @@ async function displayUser(username) {
         userRepoStarCount__18.textContent = `${userData[2].stargazers_count}`;
         userRepoStarCount__19.textContent = `${userData[24].stargazers_count}`;
 
-        userRepoCircle.style.color = `red`;
+        userRepoCircle.style.color = `yellow`;
         userRepoCircle__1.style.color = `yellow`; 
         userRepoCircle__2.style.color = `yellow`; 
         userRepoCircle__3.style.color = `yellow`; 
