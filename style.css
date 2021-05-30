@@ -279,23 +279,40 @@ a:link {
 
   @media only screen and (max-width: 600px) {
     /* For mobile phones: */
-    [class*="navbar flex-container"] {
-        width: 80%;
+    [class*="navbar nav__1"] {
+        width: 60%;
         height: 80%;
       }
+
+      [class*="flex-container"] {
+        width: 60%;
+        height: 80%;
+      }
+
+      [id="github__search"] {
+        width: 60%;
+      }
+
+      [id="github__image"] {
+        width: 40%;
+      }
+      [id="github__details"] {
+        width: 40%;
+      }
+
       #github__image .avatar{
-          max-width: 60%;
+        width: 60%;
       }
       #github__details .g-star{
-        max-width: 60%;
+        width: 60%;
       }
-  }
-  
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="navbar flex-container"] {
-      width: 80%;
-      height: 80%;
-    }
+      .g-star .btn {
+        width: 60%;
+      }
+      hr {
+          width: 60%;
+      }
+      #repo__search {
+          width: 60%;
+      }
   }
