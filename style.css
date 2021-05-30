@@ -283,10 +283,10 @@ a:link {
         width: 80%;
         height: 80%;
       }
-      #github__image {
+      #github__image .avatar{
           max-width: 80%;
       }
-      #github__details {
+      #github__details .g-star{
         max-width: 80%;
       }
   }
